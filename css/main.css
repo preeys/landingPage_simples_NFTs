@@ -5,8 +5,12 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    width: 100vw; 
+    width: 98vw; 
     background: blueviolet;  
+}
+
+.corpo-todo {
+    text-align: center;
 }
 
 button {
@@ -21,7 +25,7 @@ button {
 
 header {
     height: calc(88vh - 290px);
-    background: no-repeat center/74% url("/imagens/capa.png");/*LOGO*/    
+    background: no-repeat center/74% url("");/*LOGO*/    
 
 }
 
@@ -141,27 +145,31 @@ header nav li{
 }
 
 .final-pag p {
-    position: absolute;    
-    font-style: italic;
-    font-weight: bold;
-    text-align: left;
-    left: 100px;    
-    height: 10px;
-    display: flex;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background: rgb(52, 128, 128);
+    border: solid;
         
 }
 
 .gas-limit {
-    position: absolute;    
+    
+    position: absolute;
     font-style: italic;
     font-weight: bold;
-    text-align: left;
-    left: 120px;    
-    margin: 20px;
-    display: flex;
-    justify-content: space-between;    
-}
+    text-align: center;
+    margin: 21px 0px 1px 0px;
+    padding: 15px 0px 0px 0px
+} 
 
+.gas-limit p {  
+        text-align: center;
+        margin: 10px 20px 30px 50px;
+        padding: 12px 0px 0px 22px;
+        background: #348080;
+        border: solid;
+}
 /*PAGINA2*/
 
 .fundo {
@@ -517,53 +525,10 @@ header nav li{
         height: calc(100vh - 55px);
     }
 
-
-    header nav ul{
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        padding: 0;
-        margin: 0;
-
-        background: blue;
-        color: aliceblue;
-        font-weight: bold;
-        height: 55px;
-
+    .section.pacotes {
+        position: absolute;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+
     }
 
-    header nav p {
-        width: 100%;
-        text-align: center;
-    }
-
-    section ul {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        padding: 0;
-        margin: 0;
-
-        background: blue;
-        color: aliceblue;
-        font-weight: bold;
-        height: 55px;
-
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    section p {
-        width: 100%;
-        text-align: center;
-    }
 }
-
-
-
