@@ -1,0 +1,569 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw; 
+    background: blueviolet;  
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    border: 0;
+    background: #f19839;
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    height: calc(88vh - 290px);
+    background: no-repeat center/74% url("/imagens/capa.png");/*LOGO*/    
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;    
+}
+
+header nav p {
+    font-weight: bold;        
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+header nav ul a {
+    font-weight: bold;
+    background: #f19839;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    border-radius: 11px 11px 11px 11px;
+    text-align: center;
+    padding: 7px 4px;
+    font-size: 12px;
+    margin: 4px;
+}
+
+header nav li{
+    margin: 0 15px;
+    padding: 10px 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    border: 0px;
+    background: rgb(241, 152, 57);
+    color: antiquewhite;
+    font-family: Montserrat, sans-serif;       
+}
+
+.header-topo {
+    max-width: 400px;
+    margin: 0px auto;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.header-topo h1 {
+    max-width: 400px;
+    margin: 0px auto;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.header-topo p {
+    max-width: 400px;
+    margin: 0px auto;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.header-content {
+    max-width: 400px;
+    margin: 0px auto;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.header-content h1{
+    margin-bottom: auto;
+    font-size: 1rem;
+}
+
+.pacotes {
+    background: blueviolet;
+    height: 100px;
+}
+
+.pacotes .card {
+    width: 180px;    
+    background: blueviolet;
+    border-radius: 5px 5px 10px;
+    margin: auto;  
+    font-size: 12px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+}
+
+.pacotes .card-tag-top  {
+    position: absolute;
+    left: 8px;
+    background: rgb(241, 152, 57);
+    border-radius: 20px 20px 20px 20px;
+    text-align: left;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    padding: 0px 4px;
+}
+
+.final-pag {    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.final-pag h1 {
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    
+}
+
+.final-pag p {
+    position: absolute;    
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    left: 100px;    
+    height: 10px;
+    display: flex;
+        
+}
+
+.gas-limit {
+    position: absolute;    
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    left: 120px;    
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+/*PAGINA2*/
+
+.fundo {
+    background: blueviolet;
+}
+
+.header-pag-2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.header-pag-2 h1  {
+    text-align: center;
+    font-style: italic;
+}
+
+.header-pag-2 p {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.header-pag-eng {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.header-pag-eng h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+.header-pag-eng p {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.polygon {
+    text-align: center;
+}
+
+/*PAGINA3*/
+
+.helper{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;           
+}
+
+.info {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold; 
+    background: wheat;
+    position: static;
+}
+
+.passo-um {    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;           
+}
+
+.passo-um h1{    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+   text-align: center;
+   margin: 1px;
+}
+
+.passo-um-img{  
+   width: 300px;
+   height: 180px;
+   margin: -1px;   
+}
+
+.passo-um p{
+    text-align: center;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin: 3px;
+}
+   
+
+
+.passo-dois {    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;   
+          
+}
+
+.passo-dois h1{    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+   text-align: center;
+   margin: 1px;
+}
+
+.passo-dois-img{  
+    width: 600px;
+    height: 380px;
+    margin: -1px;  
+}
+
+.passo-dois p{
+    text-align: center;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin: 3px;
+}
+
+.passo-tres {    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;   
+          
+}
+
+.passo-tres h1{    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+   text-align: center;
+   margin: 1px;
+}
+
+.passo-tres-img{  
+    width: 400px;
+    height: 300px;
+    margin: -1px;   
+}
+
+.passo-tres p{
+    text-align: center;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin: 3px;
+}
+
+.passo-quatro {    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;   
+          
+}
+
+.passo-quatro h1{    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+   text-align: center;
+   margin: 1px;
+}
+
+.passo-quatro-img{  
+    width: 400px;
+    height: 300px;
+    margin: -1px;   
+}
+
+.passo-quatro p{
+    text-align: center;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin: 3px;
+}
+
+.passo-cinco {    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;   
+          
+}
+
+.passo-cinco h1{    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+   text-align: center;
+   margin: 1px;
+}
+
+.passo-cinco-img{  
+    width: 400px;
+    height: 300px;
+    margin: -1px;   
+}
+
+.passo-cinco p{
+    text-align: center;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin: 3px;
+}
+
+.passo-seis {    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;   
+          
+}
+
+.passo-seis h1{    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+   text-align: center;
+   margin: 1px;
+}
+
+.passo-seis-img{  
+    width: 400px;
+    height: 300px;
+    margin: -1px;   
+}
+
+.passo-seis p{
+    text-align: center;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin: 3px;
+}
+
+.passo-sete {    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;   
+          
+}
+
+.passo-sete h1{    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+   text-align: center;
+   margin: 1px;
+}
+
+.passo-sete-img{  
+    width: 400px;
+    height: 300px;
+    margin: -1px;   
+}
+
+.passo-sete p{
+    text-align: center;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin: 3px;
+}
+
+.passo-oito {    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;   
+          
+}
+
+.passo-oito h1{    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+   text-align: center;
+   margin: 1px;
+}
+
+.passo-oito-img{  
+    width: 400px;
+    height: 300px;
+    margin: -1px;   
+}
+
+.passo-oito p{
+    text-align: center;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin: 3px;
+}
+
+.passo-nove {    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;   
+          
+}
+
+.passo-nove h1{    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+   text-align: center;
+   margin: 1px;
+}
+
+.passo-nove-img{  
+    width: 400px;
+    height: 300px;
+    margin: -1px;   
+}
+
+.passo-nove p{
+    text-align: center;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin: 3px;
+}
+
+ 
+
+
+
+
+
+/*REPANSIVIDIDA*/
+
+/*APARELHOS MOVEIS*/
+
+@media only screen and (max-device-width: 700px) {
+    /* .menu { width:400px; } */
+    }
+
+@media only screen and (max-device-width: 900px) {
+    /* .menu { width:600px; } */
+    }
+
+@media only screen and (max-device-width: 900px) {
+    /* .menu { width:100%; } */
+    }
+
+@media (max-width: 767px) {
+
+}
+
+/*Landscape*/
+@media (max-width: 480px) {
+    body {
+        height: calc(100vh - 55px);
+    }
+
+
+    header nav ul{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+        background: blue;
+        color: aliceblue;
+        font-weight: bold;
+        height: 55px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header nav p {
+        width: 100%;
+        text-align: center;
+    }
+
+    section ul {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+        background: blue;
+        color: aliceblue;
+        font-weight: bold;
+        height: 55px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    section p {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
